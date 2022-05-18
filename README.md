@@ -1,0 +1,1 @@
+# terraform-azure-private-dns-resolver-azapi
