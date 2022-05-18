@@ -8,12 +8,18 @@ The following inputs need to be provided to the code.
 
 | Variable | Description |
 | ------ | ------ |
-| cl_id | App Registration Client ID |
-| cl_sec | App Registration Client Secret |
+| cl_id | App Registration Client ID (if using variable file) |
+| cl_sec | App Registration Client Secret (if using variable file) |
 | sub_id | Subscription ID |
 | ten_id | Tenant ID |
 
-## How to use the code
+## How to use the code (variable input)
+
+- Clone the repo to your local IDE.
+- Run "Terraform plan -var 'cl_id=<your app client id>' -var 'cl_sec=<your client secret>' -out tfplan"
+- Run "Terraform apply 'tfplan'"
+
+## How to use the code (variable file)
 
 - Clone the repo to your local IDE.
 - Create a "terraform.tfvars" file in the local cloned repo folder with the below contents.
