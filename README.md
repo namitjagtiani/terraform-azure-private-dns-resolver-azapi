@@ -26,7 +26,7 @@ ten_id = "00000000-0000-0000-0000-000000000000"
 - Run "Terraform plan -var 'cl_id=`your app client id`' -var 'cl_sec=`your client secret`' -out tfplan"
 - Run "Terraform apply tfplan"
 
-> Note: Make sure that when you incorporate this code into your repo and if you are using a ".tfvars" file that you also copy over the ".gitignore" file to your code repo so it avoids committing your tfvars files to your git repo.
+> Note: Make sure that when you incorporate this code into your repo and if you are using a ".tfvars" file that you also copy over the ".gitignore" file so it avoids committing your tfvars files to your git repo.
 
 ## Gotchas!
 
