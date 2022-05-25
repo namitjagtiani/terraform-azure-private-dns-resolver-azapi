@@ -26,19 +26,6 @@ ten_id = "00000000-0000-0000-0000-000000000000"
 - Run "Terraform plan -var 'cl_id=`your app client id`' -var 'cl_sec=`your client secret`' -out tfplan"
 - Run "Terraform apply tfplan"
 
-## How to use the code (secrets variable file)
-
-- Clone the repo to your local IDE.
-- Create a "terraform.tfvars" file in the local cloned repo folder with the below contents.
-```hcl
-sub_id = "00000000-0000-0000-0000-000000000000"
-cl_id  = "00000000-0000-0000-0000-000000000000"
-cl_sec = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-ten_id = "00000000-0000-0000-0000-000000000000"
-```
-- Run "Terraform Plan"
-- Run "Terraform Apply"
-
 ## Gotchas!
 
 Because the AzAPI was recently announced, there are some nuances to using the provider that will hopefully fixed in following iterations. Some of the gotchas I've encountered are below:
